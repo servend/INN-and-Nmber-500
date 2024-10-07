@@ -28,7 +28,7 @@ class Program
     {
         using (ExcelPackage package = new ExcelPackage())
         {
-            ExcelWorksheet newWorksheet = package.Workbook.Worksheets.Add("Новая таблица");
+            ExcelWorksheet newWorksheet = package.Workbook.Worksheets.Add("ИНН");
             newWorksheet.Cells["A1"].Value = "ИНН";
             newWorksheet.Cells["B1"].Value = "Телефон";
 
